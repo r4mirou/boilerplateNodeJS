@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Manutenção de usuários</title>
+
+        <link href="./css/home.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class='title'>
+        <h1 style="color: white">Title</h1><br>
+        </div>
+        <form class="form2">
+            <input class="btn" type="submit" onclick="logout()" value="Logout">  
+        </form>
+        <div id="list"></div>
+        <form class="formu" onsubmit="createUser(event)">
+            <input class="campo" type="text" id="user" placeholder="Nome Usuário" autofocus>            
+            <input class="campo" type="password" id="pass" placeholder="Senha" autofocus>            
+            <input class="btn" type="submit" value="Criar">  
+        </form>        
+    </body>
+
+    <script src="./js/home.js"></script> 
+    
+</html>
